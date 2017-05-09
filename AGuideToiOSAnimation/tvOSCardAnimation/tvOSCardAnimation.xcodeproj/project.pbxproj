@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CFD476B1E9E7B4200D25B1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD476A1E9E7B4200D25B1D /* main.m */; };
+		9CFD476E1E9E7B4200D25B1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD476D1E9E7B4200D25B1D /* AppDelegate.m */; };
+		9CFD47711E9E7B4200D25B1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD47701E9E7B4200D25B1D /* ViewController.m */; };
+		9CFD47741E9E7B4200D25B1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD47721E9E7B4200D25B1D /* Main.storyboard */; };
+		9CFD47761E9E7B4200D25B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD47751E9E7B4200D25B1D /* Assets.xcassets */; };
+		9CFD47791E9E7B4200D25B1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD47771E9E7B4200D25B1D /* LaunchScreen.storyboard */; };
+		9CFD47841E9E7B4200D25B1D /* tvOSCardAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD47831E9E7B4200D25B1D /* tvOSCardAnimationTests.m */; };
+		9CFD478F1E9E7B4200D25B1D /* tvOSCardAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD478E1E9E7B4200D25B1D /* tvOSCardAnimationUITests.m */; };
+		9CFD479E1E9E7B6600D25B1D /* tvOSCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD479D1E9E7B6600D25B1D /* tvOSCardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CFD47801E9E7B4200D25B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CFD475E1E9E7B4200D25B1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CFD47651E9E7B4200D25B1D;
+			remoteInfo = tvOSCardAnimation;
+		};
+		9CFD478B1E9E7B4200D25B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CFD475E1E9E7B4200D25B1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CFD47651E9E7B4200D25B1D;
+			remoteInfo = tvOSCardAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9CFD47661E9E7B4200D25B1D /* tvOSCardAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOSCardAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CFD476A1E9E7B4200D25B1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CFD476C1E9E7B4200D25B1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CFD476D1E9E7B4200D25B1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CFD476F1E9E7B4200D25B1D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9CFD47701E9E7B4200D25B1D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9CFD47731E9E7B4200D25B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CFD47751E9E7B4200D25B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CFD47781E9E7B4200D25B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CFD477A1E9E7B4200D25B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CFD477F1E9E7B4200D25B1D /* tvOSCardAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvOSCardAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CFD47831E9E7B4200D25B1D /* tvOSCardAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tvOSCardAnimationTests.m; sourceTree = "<group>"; };
+		9CFD47851E9E7B4200D25B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CFD478A1E9E7B4200D25B1D /* tvOSCardAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvOSCardAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CFD478E1E9E7B4200D25B1D /* tvOSCardAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tvOSCardAnimationUITests.m; sourceTree = "<group>"; };
+		9CFD47901E9E7B4200D25B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CFD479C1E9E7B6600D25B1D /* tvOSCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tvOSCardView.h; sourceTree = "<group>"; };
+		9CFD479D1E9E7B6600D25B1D /* tvOSCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tvOSCardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CFD47631E9E7B4200D25B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFD477C1E9E7B4200D25B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFD47871E9E7B4200D25B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CFD475D1E9E7B4200D25B1D = {
+			isa = PBXGroup;
+			children = (
+				9CFD47681E9E7B4200D25B1D /* tvOSCardAnimation */,
+				9CFD47821E9E7B4200D25B1D /* tvOSCardAnimationTests */,
+				9CFD478D1E9E7B4200D25B1D /* tvOSCardAnimationUITests */,
+				9CFD47671E9E7B4200D25B1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CFD47671E9E7B4200D25B1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CFD47661E9E7B4200D25B1D /* tvOSCardAnimation.app */,
+				9CFD477F1E9E7B4200D25B1D /* tvOSCardAnimationTests.xctest */,
+				9CFD478A1E9E7B4200D25B1D /* tvOSCardAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CFD47681E9E7B4200D25B1D /* tvOSCardAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				9CFD476C1E9E7B4200D25B1D /* AppDelegate.h */,
+				9CFD476D1E9E7B4200D25B1D /* AppDelegate.m */,
+				9CFD476F1E9E7B4200D25B1D /* ViewController.h */,
+				9CFD47701E9E7B4200D25B1D /* ViewController.m */,
+				9CFD47721E9E7B4200D25B1D /* Main.storyboard */,
+				9CFD47751E9E7B4200D25B1D /* Assets.xcassets */,
+				9CFD47771E9E7B4200D25B1D /* LaunchScreen.storyboard */,
+				9CFD477A1E9E7B4200D25B1D /* Info.plist */,
+				9CFD47691E9E7B4200D25B1D /* Supporting Files */,
+				9CFD479C1E9E7B6600D25B1D /* tvOSCardView.h */,
+				9CFD479D1E9E7B6600D25B1D /* tvOSCardView.m */,
+			);
+			path = tvOSCardAnimation;
+			sourceTree = "<group>";
+		};
+		9CFD47691E9E7B4200D25B1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CFD476A1E9E7B4200D25B1D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CFD47821E9E7B4200D25B1D /* tvOSCardAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CFD47831E9E7B4200D25B1D /* tvOSCardAnimationTests.m */,
+				9CFD47851E9E7B4200D25B1D /* Info.plist */,
+			);
+			path = tvOSCardAnimationTests;
+			sourceTree = "<group>";
+		};
+		9CFD478D1E9E7B4200D25B1D /* tvOSCardAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CFD478E1E9E7B4200D25B1D /* tvOSCardAnimationUITests.m */,
+				9CFD47901E9E7B4200D25B1D /* Info.plist */,
+			);
+			path = tvOSCardAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CFD47651E9E7B4200D25B1D /* tvOSCardAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CFD47931E9E7B4200D25B1D /* Build configuration list for PBXNativeTarget "tvOSCardAnimation" */;
+			buildPhases = (
+				9CFD47621E9E7B4200D25B1D /* Sources */,
+				9CFD47631E9E7B4200D25B1D /* Frameworks */,
+				9CFD47641E9E7B4200D25B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvOSCardAnimation;
+			productName = tvOSCardAnimation;
+			productReference = 9CFD47661E9E7B4200D25B1D /* tvOSCardAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CFD477E1E9E7B4200D25B1D /* tvOSCardAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CFD47961E9E7B4200D25B1D /* Build configuration list for PBXNativeTarget "tvOSCardAnimationTests" */;
+			buildPhases = (
+				9CFD477B1E9E7B4200D25B1D /* Sources */,
+				9CFD477C1E9E7B4200D25B1D /* Frameworks */,
+				9CFD477D1E9E7B4200D25B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CFD47811E9E7B4200D25B1D /* PBXTargetDependency */,
+			);
+			name = tvOSCardAnimationTests;
+			productName = tvOSCardAnimationTests;
+			productReference = 9CFD477F1E9E7B4200D25B1D /* tvOSCardAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CFD47891E9E7B4200D25B1D /* tvOSCardAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CFD47991E9E7B4200D25B1D /* Build configuration list for PBXNativeTarget "tvOSCardAnimationUITests" */;
+			buildPhases = (
+				9CFD47861E9E7B4200D25B1D /* Sources */,
+				9CFD47871E9E7B4200D25B1D /* Frameworks */,
+				9CFD47881E9E7B4200D25B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CFD478C1E9E7B4200D25B1D /* PBXTargetDependency */,
+			);
+			name = tvOSCardAnimationUITests;
+			productName = tvOSCardAnimationUITests;
+			productReference = 9CFD478A1E9E7B4200D25B1D /* tvOSCardAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CFD475E1E9E7B4200D25B1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Myron;
+				TargetAttributes = {
+					9CFD47651E9E7B4200D25B1D = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					9CFD477E1E9E7B4200D25B1D = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9CFD47651E9E7B4200D25B1D;
+					};
+					9CFD47891E9E7B4200D25B1D = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9CFD47651E9E7B4200D25B1D;
+					};
+				};
+			};
+			buildConfigurationList = 9CFD47611E9E7B4200D25B1D /* Build configuration list for PBXProject "tvOSCardAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CFD475D1E9E7B4200D25B1D;
+			productRefGroup = 9CFD47671E9E7B4200D25B1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CFD47651E9E7B4200D25B1D /* tvOSCardAnimation */,
+				9CFD477E1E9E7B4200D25B1D /* tvOSCardAnimationTests */,
+				9CFD47891E9E7B4200D25B1D /* tvOSCardAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CFD47641E9E7B4200D25B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CFD47791E9E7B4200D25B1D /* LaunchScreen.storyboard in Resources */,
+				9CFD47761E9E7B4200D25B1D /* Assets.xcassets in Resources */,
+				9CFD47741E9E7B4200D25B1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFD477D1E9E7B4200D25B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFD47881E9E7B4200D25B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CFD47621E9E7B4200D25B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CFD47711E9E7B4200D25B1D /* ViewController.m in Sources */,
+				9CFD476E1E9E7B4200D25B1D /* AppDelegate.m in Sources */,
+				9CFD479E1E9E7B6600D25B1D /* tvOSCardView.m in Sources */,
+				9CFD476B1E9E7B4200D25B1D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFD477B1E9E7B4200D25B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CFD47841E9E7B4200D25B1D /* tvOSCardAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFD47861E9E7B4200D25B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CFD478F1E9E7B4200D25B1D /* tvOSCardAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CFD47811E9E7B4200D25B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CFD47651E9E7B4200D25B1D /* tvOSCardAnimation */;
+			targetProxy = 9CFD47801E9E7B4200D25B1D /* PBXContainerItemProxy */;
+		};
+		9CFD478C1E9E7B4200D25B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CFD47651E9E7B4200D25B1D /* tvOSCardAnimation */;
+			targetProxy = 9CFD478B1E9E7B4200D25B1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CFD47721E9E7B4200D25B1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CFD47731E9E7B4200D25B1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CFD47771E9E7B4200D25B1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CFD47781E9E7B4200D25B1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CFD47911E9E7B4200D25B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CFD47921E9E7B4200D25B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CFD47941E9E7B4200D25B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tvOSCardAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myron.tvOSCardAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9CFD47951E9E7B4200D25B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tvOSCardAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myron.tvOSCardAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9CFD47971E9E7B4200D25B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tvOSCardAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myron.tvOSCardAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvOSCardAnimation.app/tvOSCardAnimation";
+			};
+			name = Debug;
+		};
+		9CFD47981E9E7B4200D25B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tvOSCardAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myron.tvOSCardAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvOSCardAnimation.app/tvOSCardAnimation";
+			};
+			name = Release;
+		};
+		9CFD479A1E9E7B4200D25B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tvOSCardAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myron.tvOSCardAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tvOSCardAnimation;
+			};
+			name = Debug;
+		};
+		9CFD479B1E9E7B4200D25B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tvOSCardAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myron.tvOSCardAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tvOSCardAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CFD47611E9E7B4200D25B1D /* Build configuration list for PBXProject "tvOSCardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CFD47911E9E7B4200D25B1D /* Debug */,
+				9CFD47921E9E7B4200D25B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CFD47931E9E7B4200D25B1D /* Build configuration list for PBXNativeTarget "tvOSCardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CFD47941E9E7B4200D25B1D /* Debug */,
+				9CFD47951E9E7B4200D25B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CFD47961E9E7B4200D25B1D /* Build configuration list for PBXNativeTarget "tvOSCardAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CFD47971E9E7B4200D25B1D /* Debug */,
+				9CFD47981E9E7B4200D25B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CFD47991E9E7B4200D25B1D /* Build configuration list for PBXNativeTarget "tvOSCardAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CFD479A1E9E7B4200D25B1D /* Debug */,
+				9CFD479B1E9E7B4200D25B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CFD475E1E9E7B4200D25B1D /* Project object */;
+}

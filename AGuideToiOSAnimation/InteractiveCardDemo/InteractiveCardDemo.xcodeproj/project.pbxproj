@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9730ABE1E9C9CD800C3C13E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9730ABD1E9C9CD800C3C13E /* main.m */; };
+		E9730AC11E9C9CD800C3C13E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9730AC01E9C9CD800C3C13E /* AppDelegate.m */; };
+		E9730AC41E9C9CD800C3C13E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9730AC31E9C9CD800C3C13E /* ViewController.m */; };
+		E9730AC71E9C9CD800C3C13E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9730AC51E9C9CD800C3C13E /* Main.storyboard */; };
+		E9730AC91E9C9CD800C3C13E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9730AC81E9C9CD800C3C13E /* Assets.xcassets */; };
+		E9730ACC1E9C9CD800C3C13E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9730ACA1E9C9CD800C3C13E /* LaunchScreen.storyboard */; };
+		E9730AD71E9C9CD800C3C13E /* InteractiveCardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9730AD61E9C9CD800C3C13E /* InteractiveCardDemoTests.m */; };
+		E9730AE21E9C9CD800C3C13E /* InteractiveCardDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9730AE11E9C9CD800C3C13E /* InteractiveCardDemoUITests.m */; };
+		E9730AF11E9C9EF700C3C13E /* InteractiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9730AF01E9C9EF700C3C13E /* InteractiveView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9730AD31E9C9CD800C3C13E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9730AB11E9C9CD800C3C13E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9730AB81E9C9CD800C3C13E;
+			remoteInfo = InteractiveCardDemo;
+		};
+		E9730ADE1E9C9CD800C3C13E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9730AB11E9C9CD800C3C13E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9730AB81E9C9CD800C3C13E;
+			remoteInfo = InteractiveCardDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9730AB91E9C9CD800C3C13E /* InteractiveCardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractiveCardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9730ABD1E9C9CD800C3C13E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9730ABF1E9C9CD800C3C13E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9730AC01E9C9CD800C3C13E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9730AC21E9C9CD800C3C13E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E9730AC31E9C9CD800C3C13E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9730AC61E9C9CD800C3C13E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9730AC81E9C9CD800C3C13E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9730ACB1E9C9CD800C3C13E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9730ACD1E9C9CD800C3C13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9730AD21E9C9CD800C3C13E /* InteractiveCardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InteractiveCardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9730AD61E9C9CD800C3C13E /* InteractiveCardDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractiveCardDemoTests.m; sourceTree = "<group>"; };
+		E9730AD81E9C9CD800C3C13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9730ADD1E9C9CD800C3C13E /* InteractiveCardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InteractiveCardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9730AE11E9C9CD800C3C13E /* InteractiveCardDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractiveCardDemoUITests.m; sourceTree = "<group>"; };
+		E9730AE31E9C9CD800C3C13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9730AEF1E9C9EF700C3C13E /* InteractiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveView.h; sourceTree = "<group>"; };
+		E9730AF01E9C9EF700C3C13E /* InteractiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9730AB61E9C9CD800C3C13E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9730ACF1E9C9CD800C3C13E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9730ADA1E9C9CD800C3C13E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9730AB01E9C9CD800C3C13E = {
+			isa = PBXGroup;
+			children = (
+				E9730ABB1E9C9CD800C3C13E /* InteractiveCardDemo */,
+				E9730AD51E9C9CD800C3C13E /* InteractiveCardDemoTests */,
+				E9730AE01E9C9CD800C3C13E /* InteractiveCardDemoUITests */,
+				E9730ABA1E9C9CD800C3C13E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9730ABA1E9C9CD800C3C13E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9730AB91E9C9CD800C3C13E /* InteractiveCardDemo.app */,
+				E9730AD21E9C9CD800C3C13E /* InteractiveCardDemoTests.xctest */,
+				E9730ADD1E9C9CD800C3C13E /* InteractiveCardDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9730ABB1E9C9CD800C3C13E /* InteractiveCardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E9730ABF1E9C9CD800C3C13E /* AppDelegate.h */,
+				E9730AC01E9C9CD800C3C13E /* AppDelegate.m */,
+				E9730AC21E9C9CD800C3C13E /* ViewController.h */,
+				E9730AC31E9C9CD800C3C13E /* ViewController.m */,
+				E9730AC51E9C9CD800C3C13E /* Main.storyboard */,
+				E9730AC81E9C9CD800C3C13E /* Assets.xcassets */,
+				E9730ACA1E9C9CD800C3C13E /* LaunchScreen.storyboard */,
+				E9730ACD1E9C9CD800C3C13E /* Info.plist */,
+				E9730ABC1E9C9CD800C3C13E /* Supporting Files */,
+				E9730AEF1E9C9EF700C3C13E /* InteractiveView.h */,
+				E9730AF01E9C9EF700C3C13E /* InteractiveView.m */,
+			);
+			path = InteractiveCardDemo;
+			sourceTree = "<group>";
+		};
+		E9730ABC1E9C9CD800C3C13E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9730ABD1E9C9CD800C3C13E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9730AD51E9C9CD800C3C13E /* InteractiveCardDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9730AD61E9C9CD800C3C13E /* InteractiveCardDemoTests.m */,
+				E9730AD81E9C9CD800C3C13E /* Info.plist */,
+			);
+			path = InteractiveCardDemoTests;
+			sourceTree = "<group>";
+		};
+		E9730AE01E9C9CD800C3C13E /* InteractiveCardDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9730AE11E9C9CD800C3C13E /* InteractiveCardDemoUITests.m */,
+				E9730AE31E9C9CD800C3C13E /* Info.plist */,
+			);
+			path = InteractiveCardDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9730AB81E9C9CD800C3C13E /* InteractiveCardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9730AE61E9C9CD800C3C13E /* Build configuration list for PBXNativeTarget "InteractiveCardDemo" */;
+			buildPhases = (
+				E9730AB51E9C9CD800C3C13E /* Sources */,
+				E9730AB61E9C9CD800C3C13E /* Frameworks */,
+				E9730AB71E9C9CD800C3C13E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InteractiveCardDemo;
+			productName = InteractiveCardDemo;
+			productReference = E9730AB91E9C9CD800C3C13E /* InteractiveCardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9730AD11E9C9CD800C3C13E /* InteractiveCardDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9730AE91E9C9CD800C3C13E /* Build configuration list for PBXNativeTarget "InteractiveCardDemoTests" */;
+			buildPhases = (
+				E9730ACE1E9C9CD800C3C13E /* Sources */,
+				E9730ACF1E9C9CD800C3C13E /* Frameworks */,
+				E9730AD01E9C9CD800C3C13E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9730AD41E9C9CD800C3C13E /* PBXTargetDependency */,
+			);
+			name = InteractiveCardDemoTests;
+			productName = InteractiveCardDemoTests;
+			productReference = E9730AD21E9C9CD800C3C13E /* InteractiveCardDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9730ADC1E9C9CD800C3C13E /* InteractiveCardDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9730AEC1E9C9CD800C3C13E /* Build configuration list for PBXNativeTarget "InteractiveCardDemoUITests" */;
+			buildPhases = (
+				E9730AD91E9C9CD800C3C13E /* Sources */,
+				E9730ADA1E9C9CD800C3C13E /* Frameworks */,
+				E9730ADB1E9C9CD800C3C13E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9730ADF1E9C9CD800C3C13E /* PBXTargetDependency */,
+			);
+			name = InteractiveCardDemoUITests;
+			productName = InteractiveCardDemoUITests;
+			productReference = E9730ADD1E9C9CD800C3C13E /* InteractiveCardDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9730AB11E9C9CD800C3C13E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = LX;
+				TargetAttributes = {
+					E9730AB81E9C9CD800C3C13E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E9730AD11E9C9CD800C3C13E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9730AB81E9C9CD800C3C13E;
+					};
+					E9730ADC1E9C9CD800C3C13E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9730AB81E9C9CD800C3C13E;
+					};
+				};
+			};
+			buildConfigurationList = E9730AB41E9C9CD800C3C13E /* Build configuration list for PBXProject "InteractiveCardDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9730AB01E9C9CD800C3C13E;
+			productRefGroup = E9730ABA1E9C9CD800C3C13E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9730AB81E9C9CD800C3C13E /* InteractiveCardDemo */,
+				E9730AD11E9C9CD800C3C13E /* InteractiveCardDemoTests */,
+				E9730ADC1E9C9CD800C3C13E /* InteractiveCardDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9730AB71E9C9CD800C3C13E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9730ACC1E9C9CD800C3C13E /* LaunchScreen.storyboard in Resources */,
+				E9730AC91E9C9CD800C3C13E /* Assets.xcassets in Resources */,
+				E9730AC71E9C9CD800C3C13E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9730AD01E9C9CD800C3C13E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9730ADB1E9C9CD800C3C13E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9730AB51E9C9CD800C3C13E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9730AC41E9C9CD800C3C13E /* ViewController.m in Sources */,
+				E9730AF11E9C9EF700C3C13E /* InteractiveView.m in Sources */,
+				E9730AC11E9C9CD800C3C13E /* AppDelegate.m in Sources */,
+				E9730ABE1E9C9CD800C3C13E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9730ACE1E9C9CD800C3C13E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9730AD71E9C9CD800C3C13E /* InteractiveCardDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9730AD91E9C9CD800C3C13E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9730AE21E9C9CD800C3C13E /* InteractiveCardDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9730AD41E9C9CD800C3C13E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9730AB81E9C9CD800C3C13E /* InteractiveCardDemo */;
+			targetProxy = E9730AD31E9C9CD800C3C13E /* PBXContainerItemProxy */;
+		};
+		E9730ADF1E9C9CD800C3C13E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9730AB81E9C9CD800C3C13E /* InteractiveCardDemo */;
+			targetProxy = E9730ADE1E9C9CD800C3C13E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9730AC51E9C9CD800C3C13E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9730AC61E9C9CD800C3C13E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9730ACA1E9C9CD800C3C13E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9730ACB1E9C9CD800C3C13E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9730AE41E9C9CD800C3C13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9730AE51E9C9CD800C3C13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9730AE71E9C9CD800C3C13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InteractiveCardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carnoc.com.InteractiveCardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9730AE81E9C9CD800C3C13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InteractiveCardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carnoc.com.InteractiveCardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E9730AEA1E9C9CD800C3C13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InteractiveCardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carnoc.com.InteractiveCardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InteractiveCardDemo.app/InteractiveCardDemo";
+			};
+			name = Debug;
+		};
+		E9730AEB1E9C9CD800C3C13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InteractiveCardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carnoc.com.InteractiveCardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InteractiveCardDemo.app/InteractiveCardDemo";
+			};
+			name = Release;
+		};
+		E9730AED1E9C9CD800C3C13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InteractiveCardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carnoc.com.InteractiveCardDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InteractiveCardDemo;
+			};
+			name = Debug;
+		};
+		E9730AEE1E9C9CD800C3C13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InteractiveCardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carnoc.com.InteractiveCardDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InteractiveCardDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9730AB41E9C9CD800C3C13E /* Build configuration list for PBXProject "InteractiveCardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9730AE41E9C9CD800C3C13E /* Debug */,
+				E9730AE51E9C9CD800C3C13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9730AE61E9C9CD800C3C13E /* Build configuration list for PBXNativeTarget "InteractiveCardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9730AE71E9C9CD800C3C13E /* Debug */,
+				E9730AE81E9C9CD800C3C13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9730AE91E9C9CD800C3C13E /* Build configuration list for PBXNativeTarget "InteractiveCardDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9730AEA1E9C9CD800C3C13E /* Debug */,
+				E9730AEB1E9C9CD800C3C13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9730AEC1E9C9CD800C3C13E /* Build configuration list for PBXNativeTarget "InteractiveCardDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9730AED1E9C9CD800C3C13E /* Debug */,
+				E9730AEE1E9C9CD800C3C13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9730AB11E9C9CD800C3C13E /* Project object */;
+}

@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9ACEF4E1E82151300F8D536 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ACEF4D1E82151300F8D536 /* main.m */; };
+		E9ACEF511E82151300F8D536 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ACEF501E82151300F8D536 /* AppDelegate.m */; };
+		E9ACEF541E82151300F8D536 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ACEF531E82151300F8D536 /* ViewController.m */; };
+		E9ACEF571E82151300F8D536 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9ACEF551E82151300F8D536 /* Main.storyboard */; };
+		E9ACEF591E82151300F8D536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9ACEF581E82151300F8D536 /* Assets.xcassets */; };
+		E9ACEF5C1E82151300F8D536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9ACEF5A1E82151300F8D536 /* LaunchScreen.storyboard */; };
+		E9ACEF671E82151300F8D536 /* GooeySlideMenuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ACEF661E82151300F8D536 /* GooeySlideMenuDemoTests.m */; };
+		E9ACEF721E82151300F8D536 /* GooeySlideMenuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ACEF711E82151300F8D536 /* GooeySlideMenuDemoUITests.m */; };
+		E9ACEF821E8218BA00F8D536 /* GooeySlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ACEF811E8218BA00F8D536 /* GooeySlideMenu.m */; };
+		E9ACEF851E82216B00F8D536 /* SlideMemuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ACEF841E82216B00F8D536 /* SlideMemuButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9ACEF631E82151300F8D536 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9ACEF411E82151300F8D536 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9ACEF481E82151300F8D536;
+			remoteInfo = GooeySlideMenuDemo;
+		};
+		E9ACEF6E1E82151300F8D536 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9ACEF411E82151300F8D536 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9ACEF481E82151300F8D536;
+			remoteInfo = GooeySlideMenuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9ACEF491E82151300F8D536 /* GooeySlideMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooeySlideMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9ACEF4D1E82151300F8D536 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9ACEF4F1E82151300F8D536 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9ACEF501E82151300F8D536 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9ACEF521E82151300F8D536 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E9ACEF531E82151300F8D536 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9ACEF561E82151300F8D536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9ACEF581E82151300F8D536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9ACEF5B1E82151300F8D536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9ACEF5D1E82151300F8D536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9ACEF621E82151300F8D536 /* GooeySlideMenuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooeySlideMenuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9ACEF661E82151300F8D536 /* GooeySlideMenuDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GooeySlideMenuDemoTests.m; sourceTree = "<group>"; };
+		E9ACEF681E82151300F8D536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9ACEF6D1E82151300F8D536 /* GooeySlideMenuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooeySlideMenuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9ACEF711E82151300F8D536 /* GooeySlideMenuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GooeySlideMenuDemoUITests.m; sourceTree = "<group>"; };
+		E9ACEF731E82151300F8D536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9ACEF801E8218BA00F8D536 /* GooeySlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooeySlideMenu.h; sourceTree = "<group>"; };
+		E9ACEF811E8218BA00F8D536 /* GooeySlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooeySlideMenu.m; sourceTree = "<group>"; };
+		E9ACEF831E82216B00F8D536 /* SlideMemuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMemuButton.h; sourceTree = "<group>"; };
+		E9ACEF841E82216B00F8D536 /* SlideMemuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideMemuButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9ACEF461E82151300F8D536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9ACEF5F1E82151300F8D536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9ACEF6A1E82151300F8D536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9ACEF401E82151300F8D536 = {
+			isa = PBXGroup;
+			children = (
+				E9ACEF4B1E82151300F8D536 /* GooeySlideMenuDemo */,
+				E9ACEF651E82151300F8D536 /* GooeySlideMenuDemoTests */,
+				E9ACEF701E82151300F8D536 /* GooeySlideMenuDemoUITests */,
+				E9ACEF4A1E82151300F8D536 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9ACEF4A1E82151300F8D536 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9ACEF491E82151300F8D536 /* GooeySlideMenuDemo.app */,
+				E9ACEF621E82151300F8D536 /* GooeySlideMenuDemoTests.xctest */,
+				E9ACEF6D1E82151300F8D536 /* GooeySlideMenuDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9ACEF4B1E82151300F8D536 /* GooeySlideMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E9ACEF7F1E8218A200F8D536 /* Class */,
+				E9ACEF4F1E82151300F8D536 /* AppDelegate.h */,
+				E9ACEF501E82151300F8D536 /* AppDelegate.m */,
+				E9ACEF521E82151300F8D536 /* ViewController.h */,
+				E9ACEF531E82151300F8D536 /* ViewController.m */,
+				E9ACEF551E82151300F8D536 /* Main.storyboard */,
+				E9ACEF581E82151300F8D536 /* Assets.xcassets */,
+				E9ACEF5A1E82151300F8D536 /* LaunchScreen.storyboard */,
+				E9ACEF5D1E82151300F8D536 /* Info.plist */,
+				E9ACEF4C1E82151300F8D536 /* Supporting Files */,
+			);
+			path = GooeySlideMenuDemo;
+			sourceTree = "<group>";
+		};
+		E9ACEF4C1E82151300F8D536 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9ACEF4D1E82151300F8D536 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9ACEF651E82151300F8D536 /* GooeySlideMenuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9ACEF661E82151300F8D536 /* GooeySlideMenuDemoTests.m */,
+				E9ACEF681E82151300F8D536 /* Info.plist */,
+			);
+			path = GooeySlideMenuDemoTests;
+			sourceTree = "<group>";
+		};
+		E9ACEF701E82151300F8D536 /* GooeySlideMenuDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9ACEF711E82151300F8D536 /* GooeySlideMenuDemoUITests.m */,
+				E9ACEF731E82151300F8D536 /* Info.plist */,
+			);
+			path = GooeySlideMenuDemoUITests;
+			sourceTree = "<group>";
+		};
+		E9ACEF7F1E8218A200F8D536 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E9ACEF801E8218BA00F8D536 /* GooeySlideMenu.h */,
+				E9ACEF811E8218BA00F8D536 /* GooeySlideMenu.m */,
+				E9ACEF831E82216B00F8D536 /* SlideMemuButton.h */,
+				E9ACEF841E82216B00F8D536 /* SlideMemuButton.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9ACEF481E82151300F8D536 /* GooeySlideMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9ACEF761E82151300F8D536 /* Build configuration list for PBXNativeTarget "GooeySlideMenuDemo" */;
+			buildPhases = (
+				E9ACEF451E82151300F8D536 /* Sources */,
+				E9ACEF461E82151300F8D536 /* Frameworks */,
+				E9ACEF471E82151300F8D536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GooeySlideMenuDemo;
+			productName = GooeySlideMenuDemo;
+			productReference = E9ACEF491E82151300F8D536 /* GooeySlideMenuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9ACEF611E82151300F8D536 /* GooeySlideMenuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9ACEF791E82151300F8D536 /* Build configuration list for PBXNativeTarget "GooeySlideMenuDemoTests" */;
+			buildPhases = (
+				E9ACEF5E1E82151300F8D536 /* Sources */,
+				E9ACEF5F1E82151300F8D536 /* Frameworks */,
+				E9ACEF601E82151300F8D536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9ACEF641E82151300F8D536 /* PBXTargetDependency */,
+			);
+			name = GooeySlideMenuDemoTests;
+			productName = GooeySlideMenuDemoTests;
+			productReference = E9ACEF621E82151300F8D536 /* GooeySlideMenuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9ACEF6C1E82151300F8D536 /* GooeySlideMenuDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9ACEF7C1E82151300F8D536 /* Build configuration list for PBXNativeTarget "GooeySlideMenuDemoUITests" */;
+			buildPhases = (
+				E9ACEF691E82151300F8D536 /* Sources */,
+				E9ACEF6A1E82151300F8D536 /* Frameworks */,
+				E9ACEF6B1E82151300F8D536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9ACEF6F1E82151300F8D536 /* PBXTargetDependency */,
+			);
+			name = GooeySlideMenuDemoUITests;
+			productName = GooeySlideMenuDemoUITests;
+			productReference = E9ACEF6D1E82151300F8D536 /* GooeySlideMenuDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9ACEF411E82151300F8D536 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = LX;
+				TargetAttributes = {
+					E9ACEF481E82151300F8D536 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E9ACEF611E82151300F8D536 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9ACEF481E82151300F8D536;
+					};
+					E9ACEF6C1E82151300F8D536 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9ACEF481E82151300F8D536;
+					};
+				};
+			};
+			buildConfigurationList = E9ACEF441E82151300F8D536 /* Build configuration list for PBXProject "GooeySlideMenuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9ACEF401E82151300F8D536;
+			productRefGroup = E9ACEF4A1E82151300F8D536 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9ACEF481E82151300F8D536 /* GooeySlideMenuDemo */,
+				E9ACEF611E82151300F8D536 /* GooeySlideMenuDemoTests */,
+				E9ACEF6C1E82151300F8D536 /* GooeySlideMenuDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9ACEF471E82151300F8D536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9ACEF5C1E82151300F8D536 /* LaunchScreen.storyboard in Resources */,
+				E9ACEF591E82151300F8D536 /* Assets.xcassets in Resources */,
+				E9ACEF571E82151300F8D536 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9ACEF601E82151300F8D536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9ACEF6B1E82151300F8D536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9ACEF451E82151300F8D536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9ACEF821E8218BA00F8D536 /* GooeySlideMenu.m in Sources */,
+				E9ACEF851E82216B00F8D536 /* SlideMemuButton.m in Sources */,
+				E9ACEF541E82151300F8D536 /* ViewController.m in Sources */,
+				E9ACEF511E82151300F8D536 /* AppDelegate.m in Sources */,
+				E9ACEF4E1E82151300F8D536 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9ACEF5E1E82151300F8D536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9ACEF671E82151300F8D536 /* GooeySlideMenuDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9ACEF691E82151300F8D536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9ACEF721E82151300F8D536 /* GooeySlideMenuDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9ACEF641E82151300F8D536 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9ACEF481E82151300F8D536 /* GooeySlideMenuDemo */;
+			targetProxy = E9ACEF631E82151300F8D536 /* PBXContainerItemProxy */;
+		};
+		E9ACEF6F1E82151300F8D536 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9ACEF481E82151300F8D536 /* GooeySlideMenuDemo */;
+			targetProxy = E9ACEF6E1E82151300F8D536 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9ACEF551E82151300F8D536 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9ACEF561E82151300F8D536 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9ACEF5A1E82151300F8D536 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9ACEF5B1E82151300F8D536 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9ACEF741E82151300F8D536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9ACEF751E82151300F8D536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9ACEF771E82151300F8D536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GooeySlideMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carnoc.com.GooeySlideMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9ACEF781E82151300F8D536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GooeySlideMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carnoc.com.GooeySlideMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E9ACEF7A1E82151300F8D536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GooeySlideMenuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carnoc.com.GooeySlideMenuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GooeySlideMenuDemo.app/GooeySlideMenuDemo";
+			};
+			name = Debug;
+		};
+		E9ACEF7B1E82151300F8D536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GooeySlideMenuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carnoc.com.GooeySlideMenuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GooeySlideMenuDemo.app/GooeySlideMenuDemo";
+			};
+			name = Release;
+		};
+		E9ACEF7D1E82151300F8D536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GooeySlideMenuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carnoc.com.GooeySlideMenuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GooeySlideMenuDemo;
+			};
+			name = Debug;
+		};
+		E9ACEF7E1E82151300F8D536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GooeySlideMenuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carnoc.com.GooeySlideMenuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GooeySlideMenuDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9ACEF441E82151300F8D536 /* Build configuration list for PBXProject "GooeySlideMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9ACEF741E82151300F8D536 /* Debug */,
+				E9ACEF751E82151300F8D536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9ACEF761E82151300F8D536 /* Build configuration list for PBXNativeTarget "GooeySlideMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9ACEF771E82151300F8D536 /* Debug */,
+				E9ACEF781E82151300F8D536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9ACEF791E82151300F8D536 /* Build configuration list for PBXNativeTarget "GooeySlideMenuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9ACEF7A1E82151300F8D536 /* Debug */,
+				E9ACEF7B1E82151300F8D536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9ACEF7C1E82151300F8D536 /* Build configuration list for PBXNativeTarget "GooeySlideMenuDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9ACEF7D1E82151300F8D536 /* Debug */,
+				E9ACEF7E1E82151300F8D536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9ACEF411E82151300F8D536 /* Project object */;
+}
